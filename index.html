@@ -1,0 +1,145 @@
+<!-- <!DOCTYPE html>
+<html>
+  <!-- Use the Source, Luke -->
+  <head>
+    <title>Genectic editing baby </title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <link type="text/css" rel="stylesheet" href="stylesheets/bootstrap.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="stylesheets/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Rosario:400,700' rel='stylesheet' type='text/css'>
+    <link type="text/css" rel="stylesheet" href="stylesheets/style.css"/>
+    <style type="text/css">
+
+    /* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
+circle.node {
+  cursor: pointer;
+  stroke: #000;
+  stroke-width: 0px;
+}
+
+circle.node.directory {
+  stroke: #006980;
+  stroke-width: 3px;
+}
+
+circle.node.collapsed {
+s}
+
+.nodetext {
+  fill: #252929;
+  font-weight: bold;
+  text-shadow: 0 0 0.2em white;
+}
+
+/*  links lines*/
+line.link {
+  fill: none;
+  stroke: #006980;
+  stroke-width: 0.3px;
+}
+    </style>
+  </head>
+  <body>
+
+
+    <!-- //////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <div class="content">
+      <div class="container">
+        <h1>Genectic editing baby information</h1>
+
+          </fieldset>
+        </form>
+
+        </pre>
+
+        <form id="jsonInput">
+        <fieldset>
+          <textarea id="jsonData"></textarea>
+          <div class="pull-right">
+            <button type="submit" class="btn btn-primary btn-large">Update</button>
+          </div>
+        </fieldset>
+        </form>
+        <div id="visualization"></div>
+        <h2>Gene editing baby information</h2>
+        <p>It's easy to generate loc metrics for any project, whatever the language. You can use <code>wc</code>, but this method requires cleaning the output and counts comments and blanks together with actual lines of code. Alternatively, you can use <code>cloc</code> (<a href="http://cloc.sourceforge.net/">http://cloc.sourceforge.net/</a>), which is open-source and makes the difference between real source code and comments. Here are three examples using <a href="http://github.com">GitHub</a> as a source.</p>
+        <pre>
+# Using curl and cloc (fast, accurate)
+$ curl https://nodeload.github.com/symfony/symfony/tar.gz/master | tar xvz
+$ cloc symfony-master --csv --by-file --report-file=symfony.cloc
+
+# Using git clone and cloc (slow, accurate)
+$ git clone git://github.com/symfony/symfony.git
+$ cloc symfony --csv --by-file --report-file=symfony.cloc
+
+# Using git clone and wc (slow, inaccurate)
+$ git clone git://github.com/symfony/symfony.git
+$ cd symfony
+$ git ls-files | xargs wc -l > symfony.wc
+
+<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+    </div>
+    <script type="text/javascript" src="javascripts/d3/d3.js"></script>
+    <script type="text/javascript" src="javascripts/d3/d3.geom.js"></script>
+    <script type="text/javascript" src="javascripts/d3/d3.layout.js"></script>
+
+    <script type="text/javascript" src="javascripts/CodeFlower.js"></script>
+    <script type="text/javascript" src="javascripts/dataConverter.js"></script>
+    <!-- <script src="https://d3js.org/d3-dispatch.v1.min.js"></script>
+    <script src="https://d3js.org/d3-selection.v1.min.js"></script>
+    <script src="https://d3js.org/d3-drag.v1.min.js"></script> -->
+    <script type="text/javascript">
+      var currentCodeFlower;
+      var createCodeFlower = function(json) {
+        // update the jsonData textarea
+        document.getElementById('jsonData').value = JSON.stringify(json);
+        // remove previous flower to save memory
+        if (currentCodeFlower) currentCodeFlower.cleanup();
+        // adapt layout size to the total number of elements
+        var total = countElements(json);
+        w = parseInt(Math.sqrt(total) * 30, 10);
+        h = parseInt(Math.sqrt(total) * 30, 10);
+        // create a new CodeFlower
+
+///////////////////click and add flower////////////////////////////////////////////////////////////////////////////
+
+        currentCodeFlower = new CodeFlower("#visualization", w, h).update(json);
+        // console.log(currentCodeFlower.node[0][currentCodeFlower.node[0].length - 1].node());
+        currentCodeFlower.flatten(currentCodeFlower.getById(81));
+//
+
+       document.addEventListener('click', function() {
+          currentCodeFlower = new CodeFlower("#visualization", w, h).update(json);
+
+ }, false);
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+ };
+
+      d3.json('data.json', createCodeFlower);
+
+      document.getElementById('project').addEventListener('change', function() {
+        d3.json(this.value, createCodeFlower);
+      });
+      document.getElementById('jsonInput').addEventListener('submit', function(e) {
+        e.preventDefault();
+        document.getElementById('visualization').scrollIntoView();
+        var json = JSON.parse(document.getElementById('jsonData').value);
+        currentCodeFlower.update(json);
+      });
+      document.getElementById('jsonConverter').addEventListener('submit', function(e) {
+        e.preventDefault();
+        var origin = this.children[0].children[0].value;
+        var data = this.children[0].children[1].value;
+        var json = convertToJSON(data, origin);
+        document.getElementById('visualization').scrollIntoView();
+        createCodeFlower(json);
+      });
+    </script>
+  </body>
+</html> -->
