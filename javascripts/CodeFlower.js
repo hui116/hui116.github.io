@@ -80,7 +80,7 @@ CodeFlower.prototype.update = function(json) {
 
 
 
-
+/////////////////////////////////////////////////////////////////////////////////////p[]
 
     .style("fill", function color(d) {
       var result = "rgb(0,105,128)", NoStorke;
@@ -101,7 +101,9 @@ CodeFlower.prototype.update = function(json) {
     .call(this.force.drag)
     .on("click", this.click.bind(this))
     .on("mouseover", this.mouseover.bind(this))
-    .on("mouseout", this.mouseout.bind(this));
+    .on("touchstart", this.mouseover.bind(this))
+    .on("mouseout", this.mouseout.bind(this))
+    .on("touchend", this.mouseout.bind(this));
 
   // Exit any old nodes
   this.node.exit().remove();
@@ -152,9 +154,28 @@ CodeFlower.prototype.mouseover = function(d) {
     .style('display', null);
 };
 
+
+
 CodeFlower.prototype.mouseout = function(d) {
   this.text.style('display', 'none');
 };
+
+/////////////////////////////ipad touchstart///////////////////////////////////////////////////////////
+CodeFlower.touchstart = function(d) {
+  this.text.attr('transform', 'translate(' + d.x + ',' + (d.y - 5 - (d.children ? 3.5 : Math.sqrt(d.size) / 2)) + ')')
+    .text(d.name + ": " + d.size + " loc")
+    .style('display', null);
+};
+
+
+CodeFlower.touchend = function(d) {
+  this.text.style('display', 'none');
+};
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+
+
 
 CodeFlower.prototype.tick = function() {
   var h = this.h;
