@@ -1,91 +1,91 @@
 {
-    "name": "genectic policy",
+    "name": "genectic editing Baby",
     "children": [{
-        "name": "app",
+        "name": "CRISPR",
         "children": [{
-            "name": "dashboard",
+            "name": "CRISPR cases study",
             "children": [{
-                "name": "public",
+                "name": "about CRISPR ",
                 "children": [{
-                    "name": "stylesheets",
+                    "name": "stakeholders",
                     "children": [{
-                        "name": "bootstrap.css",
-                        "size": 4945,
+                        "name": "patients",
+                        "size": 2000,
                         "language": "CSS"
                     }, {
-                        "name": "style.css",
+                        "name": "govenment",
                         "size": 254,
                         "language": "CSS"
                     }, {
-                        "name": "jquery.tagsinput.css",
+                        "name": "companies",
                         "size": 7,
                         "language": "CSS"
                     }],
                     "size": 5206
                 }, {
-                    "name": "javascripts",
+                    "name": "CRISPR benefits and risks",
                     "children": [{
-                        "name": "dateNavigation.js",
+                        "name": "Cancer Therapeutics",
                         "size": 155,
                         "language": "Javascript"
                     }, {
-                        "name": "dateInterval.js",
+                        "name": "3 ",
                         "size": 83,
                         "language": "Javascript"
                     }, {
-                        "name": "bootstrap-affix.js",
+                        "name": "Curing Genetic Diseases",
                         "size": 56,
                         "language": "Javascript"
                     }, {
-                        "name": "bootstrap-button.js",
+                        "name": "1",
                         "size": 52,
                         "language": "Javascript"
                     }, {
-                        "name": "uptimeBar.js",
+                        "name": "Anti-ageing research",
                         "size": 47,
                         "language": "Javascript"
                     }, {
-                        "name": "checkState.js",
+                        "name": "illnesses prevention",
                         "size": 31,
                         "language": "Javascript"
                     }, {
-                        "name": "flashcanvas",
+                        "name": "Ethical and Safety Concerns",
                         "children": [{
-                            "name": "canvas2png.js",
+                            "name": "Safety concerns",
                             "size": 27,
                             "language": "Javascript"
                         }, {
-                            "name": "flashcanvas.js",
+                            "name": "Ethical concerns",
                             "size": 21,
                             "language": "Javascript"
                         }],
                         "size": 48
                     }, {
-                        "name": "statNavigation.js",
+                        "name": "Genetic discrimination",
                         "size": 26,
                         "language": "Javascript"
                     }, {
-                        "name": "flotr2.min.js",
+                        "name": "Commercialization of human organ",
                         "size": 3,
                         "language": "Javascript"
                     }, {
-                        "name": "jquery.min.js",
+                        "name": "1",
                         "size": 3,
                         "language": "Javascript"
                     }, {
-                        "name": "jquery.tablesorter.min.js",
+                        "name": "Pest Resilient Crops",
                         "size": 1,
                         "language": "Javascript"
                     }, {
-                        "name": "moment.min.js",
+                        "name": "Drug Research",
                         "size": 1,
                         "language": "Javascript"
                     }, {
-                        "name": "ejs.min.js",
+                        "name": "4",
                         "size": 1,
                         "language": "Javascript"
                     }, {
-                        "name": "jquery.tagsinput.min.js",
+                        "name": "5",
                         "size": 1,
                         "language": "Javascript"
                     }],
@@ -93,31 +93,31 @@
                 }],
                 "size": 5714
             }, {
-                "name": "app.js",
+                "name": "social investigation",
                 "size": 126,
                 "language": "Javascript"
             }],
             "size": 5840
         }, {
-            "name": "api",
+            "name": "comments on CRISPR",
             "children": [{
-                "name": "routes",
+                "name": "negative",
                 "children": [{
-                    "name": "check.js",
+                    "name": "comments from public",
                     "size": 95,
                     "language": "Javascript"
                 }, {
-                    "name": "ping.js",
+                    "name": "comments from expert",
                     "size": 68,
                     "language": "Javascript"
                 }, {
-                    "name": "tag.js",
+                    "name": "comments from others",
                     "size": 64,
                     "language": "Javascript"
                 }],
                 "size": 227
             }, {
-                "name": "app.js",
+                "name": "positive",
                 "size": 59,
                 "language": "Javascript"
             }],
@@ -125,13 +125,13 @@
         }],
         "size": 6126
     }, {
-        "name": "lib",
+        "name": "Gene-editing risk assessment",
         "children": [{
-            "name": "qosAggregator.js",
+            "name": " Intergenerational chaos",
             "size": 476,
             "language": "Javascript"
         }, {
-            "name": "intervalBuilder.js",
+            "name": "off-target incident",
             "size": 144,
             "language": "Javascript"
         }, {
@@ -139,99 +139,99 @@
             "size": 109,
             "language": "Javascript"
         }, {
-            "name": "pollers",
+            "name": "Ethical risks",
             "children": [{
-                "name": "https.js",
+                "name": "accident disposal",
                 "size": 81,
                 "language": "Javascript"
             }, {
-                "name": "http.js",
+                "name": "experimental target safety",
                 "size": 80,
                 "language": "Javascript"
             }, {
-                "name": "icmp.js",
+                "name": "genectic discrimination",
                 "size": 53,
                 "language": "Javascript"
             }, {
-                "name": "udp.js",
+                "name": "genectic privacy copyright",
                 "size": 47,
                 "language": "Javascript"
             }, {
-                "name": "base.js",
+                "name": "Intergenerational chaos",
                 "size": 33,
                 "language": "Javascript"
             }],
             "size": 294
         }, {
-            "name": "proxy.js",
+            "name": "information to be public ",
             "size": 61,
             "language": "Javascript"
         }, {
-            "name": "analyzer.js",
+            "name": "Chimera incident",
             "size": 40,
             "language": "Javascript"
         }, {
-            "name": "timer.js",
+            "name": "Gene mutation",
             "size": 15,
             "language": "Javascript"
         }],
         "size": 1139
     }, {
-        "name": "models",
+        "name": "experts and communities on gene EDITING",
         "children": [{
-            "name": "check.js",
+            "name": "Eric Lander,founding director of MIT",
             "size": 313,
             "language": "Javascript"
         }, {
-            "name": "tag.js",
+            "name": "The World Health Organization (WHO)",
             "size": 176,
             "language": "Javascript"
         }, {
-            "name": "migrations",
+            "name": "U.N. health agency ",
             "children": [{
-                "name": "upgrade2to3.js",
+                "name": "GENEVA (AP)",
                 "size": 137,
                 "language": "Javascript"
             }],
             "size": 137
         }, {
-            "name": "checkEvent.js",
+            "name": "Dr Shoukhrat Mitalipov，Oregon Health and Science University",
             "size": 56,
             "language": "Javascript"
         }, {
-            "name": "ping.js",
+            "name": "the U.S. National Academy of Sciences",
             "size": 51,
             "language": "Javascript"
         }, {
-            "name": "checkYearlyStat.js",
+            "name": "U.S. National Academy of Medicine",
             "size": 16,
             "language": "Javascript"
         }, {
-            "name": "tagYearlyStat.js",
+            "name": "The Royal Society (United Kingdom)",
             "size": 16,
             "language": "Javascript"
         }, {
-            "name": "checkMonthlyStat.js",
+            "name": "the Chinese Academy of Sciences",
             "size": 16,
             "language": "Javascript"
         }, {
-            "name": "tagMonthlyStat.js",
+            "name": "Cobo Scientific",
             "size": 16,
             "language": "Javascript"
         }, {
-            "name": "tagDailyStat.js",
+            "name": "UNESCO panel",
             "size": 15,
             "language": "Javascript"
         }, {
-            "name": "checkHourlyStat.js",
+            "name": "Helen O’Neill, program director for Reproductive Science and Women’s Health at University College London",
             "size": 15,
             "language": "Javascript"
         }, {
-            "name": "tagHourlyStat.js",
+            "name": "International Bioethics Committee (IBC)",
             "size": 15,
             "language": "Javascript"
         }, {
-            "name": "checkDailyStat.js",
+            "name": "British Society for Genetic Medicine",
             "size": 15,
             "language": "Javascript"
         }],
@@ -293,7 +293,7 @@
         }],
         "size": 122
     }, {
-        "name": "app.js",
+        "name": "examination",
         "size": 75,
         "language": "Javascript"
     }, {
@@ -309,7 +309,7 @@
         }],
         "size": 40
     }, {
-        "name": "bootstrap.js",
+        "name": "Cas9 system",
         "size": 32,
         "language": "Javascript"
     }, {
@@ -322,5 +322,5 @@
         "language": "make"
     }],
     "nbFiles": 81,
-    "size": 8778
+    "size": 90
 }
