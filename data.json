@@ -135,7 +135,7 @@
             "size": 144,
             "language": "Javascript"
         }, {
-            "name": "monitor.js",
+            "name": "the 'monitor'",
             "size": 109,
             "language": "Javascript"
         }, {
@@ -237,11 +237,11 @@
         }],
         "size": 857
     }, {
-        "name": "test",
+        "name": "implement",
         "children": [{
-            "name": "lib",
+            "name": "plans",
             "children": [{
-                "name": "test_intervalBuilder.js",
+                "name": "effect of Implementation",
                 "size": 133,
                 "language": "Javascript"
             }],
@@ -249,33 +249,33 @@
         }],
         "size": 133
     }, {
-        "name": "fixtures",
+        "name": "SUB GOALS",
         "children": [{
-            "name": "computeStats.js",
+            "name": "Mercy for families in need",
             "size": 117,
             "language": "Javascript"
         }, {
-            "name": "populate.js",
+            "name": "Only for serious disease, never vanity ",
             "size": 70,
             "language": "Javascript"
         }, {
-            "name": "fixEvents.js",
+            "name": "Respect a child's autonomy",
             "size": 28,
             "language": "Javascript"
         }, {
-            "name": "dummyTargetUdp.js",
+            "name": "Genes do not define you ",
             "size": 19,
             "language": "Javascript"
         }, {
-            "name": "dummyTarget.js",
+            "name": "Everyone deserves freedom from genetic disease",
             "size": 13,
             "language": "Javascript"
         }],
         "size": 247
     }, {
-        "name": "plugins",
+        "name": "current laws on Gene",
         "children": [{
-            "name": "console",
+            "name": "Declaration of Helsinki",
             "children": [{
                 "name": "index.js",
                 "size": 86,
@@ -283,7 +283,7 @@
             }],
             "size": 86
         }, {
-            "name": "email",
+            "name": "International Ethical Guidelines for Biomedical Research Involving Human Subjects",
             "children": [{
                 "name": "index.js",
                 "size": 36,
@@ -297,27 +297,27 @@
         "size": 75,
         "language": "Javascript"
     }, {
-        "name": "config",
+        "name": "result stimulation",
         "children": [{
-            "name": "default.yaml",
+            "name": "tools",
             "size": 36,
             "language": "YAML"
         }, {
-            "name": "test.yaml",
+            "name": "methods",
             "size": 4,
             "language": "YAML"
         }],
         "size": 40
     }, {
-        "name": "Cas9 system",
+        "name": "solutions",
         "size": 32,
         "language": "Javascript"
     }, {
-        "name": "monitor.js",
+        "name": "the 'monitor'",
         "size": 4,
         "language": "Javascript"
     }, {
-        "name": "makefile",
+        "name": "others",
         "size": 3,
         "language": "make"
     }],
