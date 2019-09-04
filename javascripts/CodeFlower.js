@@ -11,8 +11,8 @@ var CodeFlower = function(selector, w, h) {
   this.svg.append("svg:rect")
     .style("stroke", "#fff")
     .style("fill", "#fff")
-    .attr('width', w)
-    .attr('height', h);
+    .attr('width*2', w)
+    .attr('height*2', h);
 
   this.force = d3.layout.force()
     .on("tick", this.tick.bind(this))
