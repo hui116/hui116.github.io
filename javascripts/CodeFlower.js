@@ -5,8 +5,8 @@ var CodeFlower = function(selector, w, h) {
   d3.select(selector).selectAll("svg").remove();
 
   this.svg = d3.select(selector).append("svg:svg")
-    .attr('width', 500)
-    .attr('height', 300);
+    .attr('width*2', 500)
+    .attr('height*2', 300);
 
   this.svg.append("svg:rect")
     .style("stroke", "#fff")
